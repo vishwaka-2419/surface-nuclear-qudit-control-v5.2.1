@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this research software and its archived version when using the code or numerical data."
+title: "Requirements for coherent control of a single-atom nuclear-spin qudit"
+type: software
+version: 5.2.1
+date-released: 2026-10-20
+authors:
+  - family-names: Vishwakarma
+    given-names: Aishwarya
+    affiliation: "Department of Quantum Matter Physics, University of Geneva"
+abstract: "Optimized multitone controls, drive-induced-shift tracking, calibration tests and electron-state requirements for a 49Ti nuclear-spin qudit on MgO/Ag(100) in the full 16-level electron-nuclear model."
+keywords:
+  - nuclear spin
+  - qudit
+  - quantum control
+  - ESR-STM
+  - hyperfine interaction
+  - ac Stark shift

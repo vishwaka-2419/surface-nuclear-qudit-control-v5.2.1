@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Composable pulses trained over sixteen start times drawn from $[0,100]$~ms (last row: the $1.6$~T fourteen-tone case re-run with 24 start times and up to 1200 iterations from the composable pulse): full-model fidelity at $t_0=0$ (L4); minimum and median over 48 held-out start times from the same range (L2); minimum of a 400-point scan on the design mesh (L1); full-model fidelity at the worst held-out start time (L4); two pulses with zero idle (L4), with a $1.37$-$\mu$s idle and with a $1000.37$-$\mu$s idle (L2); three pulses with consecutive idles of $0.73$ and $2.38\,\mu$s and with consecutive idles of $87.3$ and $1926.4\,\mu$s (L2), each against the product of the ideal gates.}\label{tab:composable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Pulse & $t_0=0$ (L4) & Min. & Median & Scan (L1) & Worst (L4) & 2, idle 0 (L4) & 2, 1.37 & 2, 1000 & 3 pulses & 3, long \\
+\midrule
+1.6 T, 14 tones & 99.9639\% & 99.956\% & 99.978\% & 99.958\% & 99.956\% & 99.889\% & 99.904\% & 99.963\% & 99.837\% & 99.927\% \\
+1.6 T, 7 tones & 99.9886\% & 99.980\% & 99.991\% & 99.980\% & 99.980\% & 99.960\% & 99.959\% & 99.980\% & 99.915\% & 99.982\% \\
+1.03 T, 14 tones & 99.9464\% & 99.792\% & 99.921\% & 99.851\% & 99.791\% & 99.864\% & 99.858\% & 99.862\% & 99.772\% & 99.705\% \\
+1.714 T, 14 tones & 99.9388\% & 99.871\% & 99.927\% & 99.848\% & 99.871\% & 99.807\% & 99.786\% & 99.835\% & 99.596\% & 99.796\% \\
+1.35 T, 14 tones & 88.4517\% & 81.826\% & 86.896\% & 78.803\% & 81.825\% & 80.590\% & 78.020\% & 76.805\% & 61.621\% & 61.490\% \\
+1.6 T, 14 tones (24 start times) & 99.9618\% & 99.962\% & 99.980\% & 99.965\% & 99.962\% & 99.878\% & 99.897\% & 99.961\% & 99.808\% & 99.924\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

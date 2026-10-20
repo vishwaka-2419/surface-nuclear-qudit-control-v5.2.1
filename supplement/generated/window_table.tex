@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Pulses trained on eight start times within $[0,10]\,\mu$s (window-trained): minimum over 24 held-out start times in the same window (L2); fidelity at the two start times of the external audit, $43.417$ and $769.616\,\mu$s (L2); minimum of a 400-point scan over $[0,100]$~ms on the design mesh (L1) and the worst scanned point re-propagated at L2 and L4; and, for comparison, the worst scanned point of the nominal pulse over the same range (L2).}\label{tab:window}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Pulse & Held-out min (window) & $43.4\,\mu$s & $769.6\,\mu$s & Scan min (L1) & Worst (L2) & Worst (L4) & Nominal, worst (L2) \\
+\midrule
+1.6 T, 14 tones & 99.994\% & 99.955\% & 99.892\% & 99.779\% & 99.785\% & 99.784\% & 99.810\% \\
+1.6 T, 7 tones & 99.999\% & 99.999\% & 99.955\% & 99.843\% & 99.849\% & 99.849\% & 99.849\% \\
+1.03 T, 14 tones & 99.979\% & 99.864\% & 99.653\% & 99.102\% & 99.110\% & 99.109\% & 99.167\% \\
+1.714 T, 14 tones & 99.975\% & 99.958\% & 99.908\% & 99.602\% & 99.613\% & 99.613\% & 99.443\% \\
+1.35 T, 14 tones & 94.210\% & 57.417\% & 47.019\% & 50.171\% & 50.243\% & 50.242\% & 19.150\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
