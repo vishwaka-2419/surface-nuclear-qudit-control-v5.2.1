@@ -91,7 +91,6 @@ Carrier offsets define the conditional frame of the shift-tracked targets. A pul
 | `scripts/` | Study drivers, figure generation, pulse verification, waveform export and public release checks |
 | `results/` | Numerical results, scan records, optimizer metadata and `pulses/*.npz` coefficient arrays |
 | `figure_data/` | Data associated with the plotted figures |
-| `figures/` | PDF, PNG and SVG scientific figures |
 | `manuscript/generated/` | Generated numerical macros used in the article |
 | `supplement/generated/` | Generated numerical tables used in the supplement |
 | `tests/` | Algebra, signs, frames, gradients, fidelity, channel and propagation checks |
