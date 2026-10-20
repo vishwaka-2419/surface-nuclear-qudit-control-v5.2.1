@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Fresh local checks and instrument-coefficient exports
+verification/
+exports/
+results_archived/
+
+# LaTeX intermediate products; scientific PDFs and .bbl files stay tracked
+*.aux
+*.log
+*.blg
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*Notes.bib
+
+# Local credentials and operating-system metadata
+.env
+.env.*
+.DS_Store
+Thumbs.db
