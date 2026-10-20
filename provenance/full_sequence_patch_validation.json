@@ -1,0 +1,29 @@
+{
+  "starts_us": [
+    0.0,
+    12.0
+  ],
+  "fidelities": [
+    0.9989268424323262,
+    0.9988860949453264
+  ],
+  "worst": 0.9988860949453264,
+  "transfer_probability": [
+    0.9997106469805667,
+    0.9998003741634712
+  ],
+  "ideal_transfer_probability": 0.9999999999999978,
+  "full_fidelities": [
+    0.9989310508239941,
+    0.9988917703430076
+  ],
+  "full_worst": 0.9988917703430076,
+  "full_leakage": [
+    -2.637179363773612e-11,
+    -5.031597360982687e-11
+  ],
+  "full_dt_us": 5e-05,
+  "full_composition": "complete static-energy interaction-picture propagators",
+  "independent_continuous": 0.9988917703499813,
+  "difference_from_continuous": -6.973754906880458e-12
+}

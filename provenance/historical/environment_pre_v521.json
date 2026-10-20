@@ -1,0 +1,26 @@
+{
+  "v4_results_environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.8",
+      "pytest": "9.0.2",
+      "setuptools": "82.0.1"
+    }
+  },
+  "v5_tracked_designs_and_figures_environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.2",
+      "pytest": "9.x"
+    }
+  },
+  "note": "results/tracked_* , results/comb_spectrum*.csv, figures/ and generated tables were produced in the v5 environment; all other results/ files in the v4 environment. Fidelities, not byte-identical files, are the reproducibility criterion."
+}

@@ -1,0 +1,827 @@
+{
+  "version": "4.0.0",
+  "status": "all included computations completed",
+  "completed_pulses": 23,
+  "numerical_tests": 56,
+  "figure_sets": 18,
+  "main_pages": 9,
+  "supplement_pages": 19,
+  "important_note": "Finite-budget optimizer termination is distinct from convergence to a global optimum. See per-job and validation records.",
+  "jobs": [
+    {
+      "name": "nominal_N_B1.03_dual",
+      "config": {
+        "B": 1.03,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 600,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 32.31394100189209,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_N_B1.35_dual",
+      "config": {
+        "B": 1.35,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 600,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 27.189509868621826,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_N_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 600,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 28.466612339019775,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_N_B1.714_dual",
+      "config": {
+        "B": 1.714,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 600,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 27.777023792266846,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_electron_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "electron",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 800,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 38.55946135520935,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_electron_B1.6_single",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0
+        ],
+        "mechanism": "electron",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 732,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "elapsed_s": 17.87456512451172,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_magnetic_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "magnetic",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 800,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 37.497520208358765,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_magnetic_B1.6_single",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0
+        ],
+        "mechanism": "magnetic",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 667,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "elapsed_s": 17.313502550125122,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "nominal_nuclear_B1.6_single",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0
+        ],
+        "mechanism": "nuclear",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 428,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "elapsed_s": 10.278324842453003,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_dual_corners",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.025,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 1,
+        "maxiter": 400,
+        "robust": true,
+        "beta": 2000.0
+      },
+      "iterations": 400,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 881.3568975925446,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_dual_refined",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 1,
+        "maxiter": 250,
+        "robust": true,
+        "beta": 2000.0
+      },
+      "iterations": 250,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 1116.4044318199158,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_dual_seed1",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.05,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 1,
+        "maxiter": 1200,
+        "robust": true
+      },
+      "iterations": 1200,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 512.6473126411438,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_dual_seed2",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.05,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 2,
+        "maxiter": 1200,
+        "robust": true
+      },
+      "iterations": 1200,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 511.64628982543945,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_dual_seed3",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.05,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 3,
+        "maxiter": 1200,
+        "robust": true
+      },
+      "iterations": 1200,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 653.0450699329376,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "robust_N_B1.6_single_seed1",
+      "config": {
+        "B": 1.6,
+        "T": 48.0,
+        "amax": 0.05,
+        "ncoef": 22,
+        "dt": 0.05,
+        "active": [
+          0
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 1,
+        "maxiter": 1200,
+        "robust": true
+      },
+      "iterations": 1200,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 295.6064145565033,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "selective_N_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 20.0,
+        "kind": "selective",
+        "amax": 0.05,
+        "ncoef": 16,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 800,
+        "robust": false
+      },
+      "iterations": 800,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 75.3586790561676,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "stark_electron_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "electron",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 600,
+      "optimizer_success": null,
+      "optimizer_message": null,
+      "elapsed_s": null,
+      "design_model": "second_order_electron"
+    },
+    {
+      "name": "stark_electron_B1.6_single",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0
+        ],
+        "mechanism": "electron",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 158,
+      "optimizer_success": null,
+      "optimizer_message": null,
+      "elapsed_s": null,
+      "design_model": "second_order_electron"
+    },
+    {
+      "name": "stark_magnetic_B1.6_dual",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "magnetic",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 564,
+      "optimizer_success": null,
+      "optimizer_message": null,
+      "elapsed_s": null,
+      "design_model": "second_order_electron"
+    },
+    {
+      "name": "stark_magnetic_B1.6_single",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "active": [
+          0
+        ],
+        "mechanism": "magnetic",
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.3738410596,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "seed": 0,
+        "maxiter": 600,
+        "robust": false
+      },
+      "iterations": 365,
+      "optimizer_success": null,
+      "optimizer_message": null,
+      "elapsed_s": null,
+      "design_model": "second_order_electron"
+    },
+    {
+      "name": "synthetic_d10",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.044095855184409845,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "parameters": {
+          "I": 4.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -79.2,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "nuclear",
+        "frame": "tracked",
+        "seed": 7,
+        "maxiter": 500
+      },
+      "iterations": 500,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 39.41857886314392,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "synthetic_d6",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05916079783099616,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "parameters": {
+          "I": 2.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -22.0,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "nuclear",
+        "frame": "tracked",
+        "seed": 7,
+        "maxiter": 500
+      },
+      "iterations": 417,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "elapsed_s": 13.58552885055542,
+      "design_model": "linear_projected"
+    },
+    {
+      "name": "synthetic_d8",
+      "config": {
+        "B": 1.6,
+        "T": 12.0,
+        "amax": 0.05,
+        "ncoef": 14,
+        "dt": 0.0125,
+        "parameters": {
+          "I": 3.5,
+          "A_z": 130.0,
+          "A_t": 10.0,
+          "kappa": -46.199999999999996,
+          "gamma": 2.3987212125997144,
+          "g_z": 0.56,
+          "g_t": 1.67,
+          "B_tip": 0.0679,
+          "tip_angle": 5.0,
+          "eta": 0.0,
+          "efg_tilt": 0.0
+        },
+        "active": [
+          0,
+          1
+        ],
+        "mechanism": "nuclear",
+        "frame": "tracked",
+        "seed": 7,
+        "maxiter": 500
+      },
+      "iterations": 500,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "elapsed_s": 25.244970321655273,
+      "design_model": "linear_projected"
+    }
+  ],
+  "public_subset_note": "Historical v4 scientific record. Administrative PDF counts are excluded; values are not current v5.2.1 totals."
+}

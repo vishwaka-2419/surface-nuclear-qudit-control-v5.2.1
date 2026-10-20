@@ -1,0 +1,15 @@
+{
+  "status": "template; no instrument connection or voltage calibration",
+  "coefficient_units": "MHz multiplying the dimensionless operator in the pulse configuration",
+  "time_units": "microseconds",
+  "field_units": "tesla",
+  "measured_complex_transfer_function": null,
+  "measured_nuclear_Rabi_rates": null,
+  "maximum_total_RF_power": null,
+  "maximum_instrument_voltage": null,
+  "measured_initial_excited_fraction": null,
+  "measured_upward_rate_per_us": null,
+  "measured_downward_rate_per_us": null,
+  "measured_nuclear_coherence_model": null,
+  "warning": "Fill these quantities from independent measurements and revalidate. A scalar field conversion is not a calibrated STM voltage conversion."
+}

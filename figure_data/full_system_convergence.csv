@@ -1,0 +1,22 @@
+name,label,dt_ps,fidelity
+nominal_N_B1.6_dual,"$O_N$, 14 tones",200.0,0.9999517205620465
+nominal_N_B1.6_dual,"$O_N$, 14 tones",100.0,0.9999526975791139
+nominal_N_B1.6_dual,"$O_N$, 14 tones",50.0,0.9999527416916535
+nominal_electron_B1.6_single,"$O_E$, 7 tones",200.0,0.18173729345639542
+nominal_electron_B1.6_single,"$O_E$, 7 tones",100.0,0.1822186148315721
+nominal_electron_B1.6_single,"$O_E$, 7 tones",50.0,0.18253682616468966
+nominal_electron_B1.6_single,"$O_E$, 7 tones",25.0,0.18254317364873449
+nominal_electron_B1.6_single,"$O_E$, 7 tones",12.5,0.1825405241850308
+nominal_electron_B1.6_single,"$O_E$, 7 tones",6.25,0.18253978780516766
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",200.0,0.15733245535617701
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",100.0,0.15733138584389206
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",50.0,0.15732277833736938
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",25.0,0.1573226607657691
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",12.5,0.15732272379685813
+nominal_magnetic_B1.6_single,"$O_M$, 7 tones",6.25,0.15732274141923652
+tracked_electron_B1.6_single,"$O_E$, 7 tones, tracked",100.0,0.9999753935294259
+tracked_electron_B1.6_single,"$O_E$, 7 tones, tracked",50.0,0.9999706355652856
+tracked_electron_B1.6_single,"$O_E$, 7 tones, tracked",25.0,0.9999707406154887
+tracked_magnetic_B1.6_single,"$O_M$, 7 tones, tracked",100.0,0.9997357681839321
+tracked_magnetic_B1.6_single,"$O_M$, 7 tones, tracked",50.0,0.9996941171642977
+tracked_magnetic_B1.6_single,"$O_M$, 7 tones, tracked",25.0,0.9996938413071091

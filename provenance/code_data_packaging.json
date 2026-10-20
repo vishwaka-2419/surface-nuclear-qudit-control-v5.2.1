@@ -1,0 +1,12 @@
+{
+  "version": "5.2.1",
+  "package": "public reproducibility code and data",
+  "date": "2026-10-20",
+  "protected_scientific_files": 281,
+  "protected_file_differences": 0,
+  "excluded": "Paper prose and PDFs, author correspondence, submission documents, author-document generators and account/publishing setup",
+  "public_doi": null,
+  "public_repository": null,
+  "public_license": "Not selected by author",
+  "validation": "Content and SHA-256 verification performed; numerical source and results unchanged from verified v5.2.1"
+}

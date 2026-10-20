@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-20T14:39:49.145566+00:00",
+  "version": "5.2.1",
+  "sha256": {
+    "manuscript/generated/numbers.tex": "67b1966d9ca8fa19b7fddcc7303f3eae506c23013c8563ec97bf4f7846b1f7c9",
+    "src/qudit_control/extended.py": "022f832967af7b3c3a2978c4b7e0a8e83d0294e99bc571886a5a8b6fabc90074",
+    "scripts/start_time_study.py": "218aac66d858e461afb55c5bceff800caefc1b5427700e482e5ed63533a44280",
+    "scripts/composable_study.py": "52712229304f9f9990d6d0e1368578e45f79f2eede496c5584a8b5df7027357e",
+    "scripts/build_figures_tables.py": "2e86e24c38e8a9e620e9a872c5204b03ecefb278840b311d4ef5d0d6c103947f"
+  },
+  "public_subset_note": "Scientific inputs only; correspondence and portal hashes omitted."
+}

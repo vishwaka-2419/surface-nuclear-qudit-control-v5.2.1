@@ -1,0 +1,770 @@
+{
+  "input": "ver5.2_revised_package.zip",
+  "input_sha256": "fa7ef428c25ab49ec85e8458f48d4991e6971f8097693195e76dd4d436c3e3b6",
+  "original_archive_unchanged": true,
+  "integrity": {
+    "manifest_entries_passed": 375,
+    "completed_finite_pulse_archives": 39,
+    "figure_sets": 19
+  },
+  "pulse_loader": {
+    "all_pulses_loaded": 39,
+    "previous_study_metadata_bug": "fixed in supplied v5.2"
+  },
+  "tests": {
+    "runner": "manual execution of original tests; pytest absent",
+    "passed": 61,
+    "failed": 0
+  },
+  "selected_propagations": [
+    {
+      "label": "t0",
+      "t0_us": 0.0,
+      "L2": {
+        "fidelities": [
+          0.9996897260365125,
+          0.9996373797166961
+        ],
+        "worst": 0.9996373797166961,
+        "unitarity_error": 2.983971080067751e-08,
+        "nfev": 88778,
+        "counterrotating": true,
+        "rtol": 2e-09,
+        "atol": 2e-11,
+        "max_step_us": 0.004,
+        "start_time_us": 0.0
+      },
+      "L4": {
+        "best_diagonal_output_fidelities": [
+          0.9997600114316033,
+          0.9996729282904807
+        ],
+        "best_diagonal_output_phases_rad": [
+          [
+            2.904881903469543,
+            2.894745911905107,
+            2.8828360380312805,
+            2.8814841315604607,
+            2.8763469358640257,
+            2.878522853649384,
+            2.8830392520038863,
+            2.8848328745461864
+          ],
+          [
+            -2.883916120873936,
+            -2.8870405315316354,
+            -2.8940896652289876,
+            -2.8895205608113756,
+            -2.8922974960816634,
+            -2.8859889434989396,
+            -2.8799733655768875,
+            -2.8738475484926367
+          ]
+        ],
+        "fidelities": [
+          0.9996908716641258,
+          0.9996388625815317
+        ],
+        "worst": 0.9996388625815317,
+        "leakage": [
+          -1.3214096483693538e-11,
+          -2.53488341428465e-11
+        ],
+        "dt_us": 5e-05,
+        "steps": 240000,
+        "elapsed_s": 7.133619785308838,
+        "unitarity_error": 8.971549115837746e-11,
+        "start_time_us": 0.0
+      },
+      "archived_full": 0.999638862581079,
+      "full_difference": 4.526379271396763e-13
+    },
+    {
+      "label": "heldout_worst",
+      "t0_us": 756.3615528540457,
+      "L2": {
+        "fidelities": [
+          0.9996664916622302,
+          0.9995621012136348
+        ],
+        "worst": 0.9995621012136348,
+        "unitarity_error": 4.001259056532254e-08,
+        "nfev": 92810,
+        "counterrotating": true,
+        "rtol": 2e-09,
+        "atol": 2e-11,
+        "max_step_us": 0.004,
+        "start_time_us": 756.3615528540457
+      },
+      "L4": {
+        "best_diagonal_output_fidelities": [
+          0.9996733664492723,
+          0.9996214400246402
+        ],
+        "best_diagonal_output_phases_rad": [
+          [
+            2.887163765275947,
+            2.886060052970388,
+            2.884106923156982,
+            2.8920024251934304,
+            2.885588526768273,
+            2.88761191029531,
+            2.88238282818802,
+            2.881770895859097
+          ],
+          [
+            -2.8905581499387254,
+            -2.8902649238710683,
+            -2.8985956210391763,
+            -2.884990028041057,
+            -2.8914289043902177,
+            -2.8820645239858167,
+            -2.8785095126234768,
+            -2.870263491164916
+          ]
+        ],
+        "fidelities": [
+          0.9996650926204129,
+          0.9995606726361778
+        ],
+        "worst": 0.9995606726361778,
+        "leakage": [
+          -1.4293455308234115e-11,
+          -2.608846472185178e-11
+        ],
+        "dt_us": 5e-05,
+        "steps": 240000,
+        "elapsed_s": 7.292048454284668,
+        "unitarity_error": 9.761546612231754e-11,
+        "start_time_us": 756.3615528540457
+      },
+      "archived_full": 0.9995606726357854,
+      "full_difference": 3.923528169025303e-13
+    },
+    {
+      "label": "L1_selected_scan_point",
+      "t0_us": 6391.403804760409,
+      "L2": {
+        "fidelities": [
+          0.9996848482300528,
+          0.9995298819003161
+        ],
+        "worst": 0.9995298819003161,
+        "unitarity_error": 3.952552675882978e-08,
+        "nfev": 93002,
+        "counterrotating": true,
+        "rtol": 2e-09,
+        "atol": 2e-11,
+        "max_step_us": 0.004,
+        "start_time_us": 6391.403804760409
+      },
+      "L4": {
+        "best_diagonal_output_fidelities": [
+          0.999717900071007,
+          0.999563310242479
+        ],
+        "best_diagonal_output_phases_rad": [
+          [
+            2.87659571438406,
+            2.886837736763393,
+            2.8868938617793454,
+            2.8962727263634656,
+            2.8909107444485596,
+            2.889134337597194,
+            2.881594873988073,
+            2.878439732468138
+          ],
+          [
+            -2.8958714017947425,
+            -2.891971662866079,
+            -2.8917646946103077,
+            -2.8768142439497675,
+            -2.885697999860545,
+            -2.880544747902046,
+            -2.881858850425031,
+            -2.882160035140785
+          ]
+        ],
+        "fidelities": [
+          0.9996839388846842,
+          0.9995286331537613
+        ],
+        "worst": 0.9995286331537613,
+        "leakage": [
+          -1.3844037027865852e-11,
+          -2.5861535135618396e-11
+        ],
+        "dt_us": 5e-05,
+        "steps": 240000,
+        "elapsed_s": 6.916445970535278,
+        "unitarity_error": 9.701626333025137e-11,
+        "start_time_us": 6391.403804760409
+      },
+      "archived_full": 0.9995286331536918,
+      "full_difference": 6.94999613415348e-14
+    }
+  ],
+  "continuous_two_pulse": {
+    "pulse": "composable_N_B1.6_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "full": {
+      "best_diagonal_output_fidelities": [
+        0.9990894921456935,
+        0.9989822329060121
+      ],
+      "best_diagonal_output_phases_rad": [
+        [
+          -0.48784150350225935,
+          -0.5037565025208823,
+          -0.519817454076932,
+          -0.5247698750124142,
+          -0.5304906748439338,
+          -0.5150779922823698,
+          -0.5125379861648571,
+          -0.497788886974433
+        ],
+        [
+          0.5266671244703842,
+          0.5149731055069112,
+          0.5062322545398673,
+          0.5011633678931585,
+          0.49757435212614415,
+          0.505967153196519,
+          0.513637072266631,
+          0.5259671978877238
+        ]
+      ],
+      "fidelities": [
+        0.9989310508284824,
+        0.9988917703499813
+      ],
+      "worst": 0.9988917703499813,
+      "leakage": [
+        -2.6579405343341023e-11,
+        -5.0807358320525964e-11
+      ],
+      "dt_us": 5e-05,
+      "steps": 480000,
+      "elapsed_s": 14.270899534225464,
+      "unitarity_error": 1.7201683424433515e-10,
+      "start_time_us": 0.0
+    },
+    "archived_block_product_fidelity": 0.9988917703432898,
+    "difference": 6.6915362140207435e-12
+  },
+  "selected_three_pulse": [
+    {
+      "starts_us": [
+        0.0,
+        12.73,
+        27.11
+      ],
+      "actual_idles_us": [
+        0.7300000000000004,
+        2.379999999999999
+      ],
+      "fidelities": [
+        0.9984541651785983,
+        0.9983727189361906
+      ],
+      "worst": 0.9983727189361906,
+      "pulse": "composable_N_B1.6_dual",
+      "archived_fidelity": 0.99837271893625,
+      "difference": -5.939693181744587e-14
+    },
+    {
+      "starts_us": [
+        0.0,
+        99.3,
+        2037.7
+      ],
+      "actual_idles_us": [
+        87.3,
+        1926.4
+      ],
+      "fidelities": [
+        0.9993773554259003,
+        0.999273864921789
+      ],
+      "worst": 0.999273864921789,
+      "pulse": "composable_N_B1.6_dual",
+      "archived_fidelity": 0.9992738649217127,
+      "difference": 7.638334409421077e-14
+    },
+    {
+      "starts_us": [
+        0.0,
+        99.3,
+        2037.7
+      ],
+      "actual_idles_us": [
+        87.3,
+        1926.4
+      ],
+      "fidelities": [
+        0.9973381591325686,
+        0.9970470179285038
+      ],
+      "worst": 0.9970470179285038,
+      "pulse": "composable_N_B1.03_dual",
+      "archived_fidelity": 0.9970470179241073,
+      "difference": 4.39648317751562e-12
+    },
+    {
+      "starts_us": [
+        0.0,
+        99.3,
+        2037.7
+      ],
+      "actual_idles_us": [
+        87.3,
+        1926.4
+      ],
+      "fidelities": [
+        0.998292899499961,
+        0.9979645213501342
+      ],
+      "worst": 0.9979645213501342,
+      "pulse": "composable_N_B1.714_dual",
+      "archived_fidelity": 0.997964521351836,
+      "difference": -1.70174985214544e-12
+    }
+  ],
+  "corrections": [
+    {
+      "issue": "Three-pulse cumulative offsets mislabeled as consecutive idle lengths",
+      "actual_starts_us": [
+        [
+          0,
+          12.73,
+          27.11
+        ],
+        [
+          0,
+          99.3,
+          2037.7
+        ]
+      ],
+      "actual_consecutive_idles_us": [
+        [
+          0.73,
+          2.38
+        ],
+        [
+          87.3,
+          1926.4
+        ]
+      ],
+      "changes_numerical_result": false
+    },
+    {
+      "issue": "Prose L2 fidelity at L1-selected scan point not explicitly distinguished from L1 scan fidelity",
+      "L1": 0.9995750727215307,
+      "L2_at_L1_candidate": 0.9995298819020861,
+      "L4_at_L1_candidate": 0.9995286331536918,
+      "note": "Prose uses downward-rounded lower bounds; tables use ordinary rounding."
+    },
+    {
+      "issue": "Full-model sequences formerly multiplied branch blocks and used unitary fidelity",
+      "patch": "full_sequence_patch/full_sequence.patch",
+      "validation": "full_sequence_patch_validation.json",
+      "note": "Complete16x16 interaction propagators preserve leakage and return paths; branch mean energies must be retained. Independent continuous propagation agrees within7e-12 for1.6T dual."
+    }
+  ],
+  "scope": "Selected independent reruns and all supplied assertion cases; not a repetition of all optimizations or proof of global/start-time worst cases.",
+  "full_sequence_refresh": {
+    "entries": 18,
+    "max_absolute_fidelity_change": 3.9303449383965017e-11,
+    "details_file": "full_sequence_refresh.json"
+  },
+  "final_edited_package_tests": {
+    "runner": "direct execution of parameter-expanded assertion cases; not a pytest invocation",
+    "passed": 63,
+    "failed": 0,
+    "tests": [
+      {
+        "test": "test_channels.py:test_independent_rwa_agrees_with_refined_propagator({})",
+        "result": "passed",
+        "seconds": 0.559241533279419,
+        "error": null
+      },
+      {
+        "test": "test_channels.py:test_jump_statistics({})",
+        "result": "passed",
+        "seconds": 0.03366279602050781,
+        "error": null
+      },
+      {
+        "test": "test_channels.py:test_polarized_electron_is_static({})",
+        "result": "passed",
+        "seconds": 0.00963282585144043,
+        "error": null
+      },
+      {
+        "test": "test_channels.py:test_stratified_jumps_against_exact_free_channel({})",
+        "result": "passed",
+        "seconds": 0.08534049987792969,
+        "error": null
+      },
+      {
+        "test": "test_channels.py:test_zero_drive_dephasing_against_analytic_superoperator({})",
+        "result": "passed",
+        "seconds": 0.009918928146362305,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'nuclear'})",
+        "result": "passed",
+        "seconds": 0.0008122920989990234,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'electron'})",
+        "result": "passed",
+        "seconds": 0.001333475112915039,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'magnetic'})",
+        "result": "passed",
+        "seconds": 0.0006020069122314453,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_bad_requirement_input({'T': 0, 'tau': 0.1})",
+        "result": "passed",
+        "seconds": 1.0967254638671875e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_bad_requirement_input({'T': -1, 'tau': 0.1})",
+        "result": "passed",
+        "seconds": 3.5762786865234375e-06,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_bad_requirement_input({'T': 12, 'tau': 0})",
+        "result": "passed",
+        "seconds": 2.1457672119140625e-06,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_bb1_removes_leading_amplitude_error({})",
+        "result": "passed",
+        "seconds": 0.0005545616149902344,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_corner_set_has_16_distinct_corners({})",
+        "result": "passed",
+        "seconds": 9.703636169433594e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_extended_linear_gradient({'active': (0,)})",
+        "result": "passed",
+        "seconds": 0.006980419158935547,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_extended_linear_gradient({'active': (0, 1)})",
+        "result": "passed",
+        "seconds": 0.009586095809936523,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_fidelity_floors_are_distinct({})",
+        "result": "passed",
+        "seconds": 0.0002079010009765625,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_final_diagonal_fidelity_is_calculated_separately({})",
+        "result": "passed",
+        "seconds": 0.00011515617370605469,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_finite_control_bounds({})",
+        "result": "passed",
+        "seconds": 0.0022635459899902344,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_full_short_propagation_is_unitary_and_leakage_not_normalized({})",
+        "result": "passed",
+        "seconds": 0.03752756118774414,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_phase_tracking_population_cancellation({})",
+        "result": "passed",
+        "seconds": 0.0011353492736816406,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.0})",
+        "result": "passed",
+        "seconds": 7.462501525878906e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.0001})",
+        "result": "passed",
+        "seconds": 4.3392181396484375e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.17})",
+        "result": "passed",
+        "seconds": 3.9577484130859375e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.5})",
+        "result": "passed",
+        "seconds": 3.933906555175781e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 1.0})",
+        "result": "passed",
+        "seconds": 3.910064697265625e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'nuclear'})",
+        "result": "passed",
+        "seconds": 0.0021915435791015625,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'electron'})",
+        "result": "passed",
+        "seconds": 0.002573728561401367,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'magnetic'})",
+        "result": "passed",
+        "seconds": 0.0022878646850585938,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_second_order_control_gradient({})",
+        "result": "passed",
+        "seconds": 0.016630887985229492,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_seven_carriers_propagate_both_branches({})",
+        "result": "passed",
+        "seconds": 0.0019648075103759766,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 6})",
+        "result": "passed",
+        "seconds": 1.71661376953125e-05,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 8})",
+        "result": "passed",
+        "seconds": 9.298324584960938e-06,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 10})",
+        "result": "passed",
+        "seconds": 6.9141387939453125e-06,
+        "error": null
+      },
+      {
+        "test": "test_extended.py:test_thermal_requirement_and_time_units({})",
+        "result": "passed",
+        "seconds": 7.462501525878906e-05,
+        "error": null
+      },
+      {
+        "test": "test_full_sequence_return.py:test_full_interaction_propagator_matches_reported_branch_fidelities({})",
+        "result": "passed",
+        "seconds": 0.03684234619140625,
+        "error": null
+      },
+      {
+        "test": "test_full_sequence_return.py:test_full_propagator_return_options_are_exclusive({})",
+        "result": "passed",
+        "seconds": 0.002433300018310547,
+        "error": null
+      },
+      {
+        "test": "test_io.py:test_load_pulse_ignores_study_metadata({})",
+        "result": "passed",
+        "seconds": 0.06032299995422363,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_axial_spectrum({'B': 1.03})",
+        "result": "passed",
+        "seconds": 0.0007827281951904297,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_axial_spectrum({'B': 1.35})",
+        "result": "passed",
+        "seconds": 0.00034499168395996094,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_axial_spectrum({'B': 1.6})",
+        "result": "passed",
+        "seconds": 0.0003705024719238281,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_bounds_and_endpoints({})",
+        "result": "passed",
+        "seconds": 0.01468348503112793,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_common_frame_counterexample({})",
+        "result": "passed",
+        "seconds": 0.0007557868957519531,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_finite_comb_does_not_obey_global_half_spacing_ceiling({})",
+        "result": "passed",
+        "seconds": 0.0005135536193847656,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_frechet_gradient({})",
+        "result": "passed",
+        "seconds": 0.13926434516906738,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_hermitian_and_purity({})",
+        "result": "passed",
+        "seconds": 0.0008034706115722656,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_hermitian_control_unitarity({})",
+        "result": "passed",
+        "seconds": 0.005922079086303711,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_idle_zero_hyperfine({'p': 0})",
+        "result": "passed",
+        "seconds": 0.008278369903564453,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_idle_zero_hyperfine({'p': 0.1})",
+        "result": "passed",
+        "seconds": 0.0017151832580566406,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_idle_zero_hyperfine({'p': 0.5})",
+        "result": "passed",
+        "seconds": 0.002201557159423828,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_idle_zero_hyperfine({'p': 1.0})",
+        "result": "passed",
+        "seconds": 0.009033203125,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_noise_slopes({})",
+        "result": "passed",
+        "seconds": 0.00017261505126953125,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_nominal_16_level_reference({})",
+        "result": "passed",
+        "seconds": 0.0007176399230957031,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_spin_algebra({'I': 0.5})",
+        "result": "passed",
+        "seconds": 6.604194641113281e-05,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_spin_algebra({'I': 2.5})",
+        "result": "passed",
+        "seconds": 5.6743621826171875e-05,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_spin_algebra({'I': 3.5})",
+        "result": "passed",
+        "seconds": 0.0001323223114013672,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_spin_algebra({'I': 4.5})",
+        "result": "passed",
+        "seconds": 6.818771362304688e-05,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_wrong_rotation_fidelity({'I': 2.5})",
+        "result": "passed",
+        "seconds": 0.00010633468627929688,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_wrong_rotation_fidelity({'I': 3.5})",
+        "result": "passed",
+        "seconds": 0.00011873245239257812,
+        "error": null
+      },
+      {
+        "test": "test_model.py:test_wrong_rotation_fidelity({'I': 4.5})",
+        "result": "passed",
+        "seconds": 0.000133514404296875,
+        "error": null
+      },
+      {
+        "test": "test_tracking.py:test_carrier_offsets_reconstruct_level_shifts({})",
+        "result": "passed",
+        "seconds": 0.01585841178894043,
+        "error": null
+      },
+      {
+        "test": "test_tracking.py:test_offset_requires_one_entry_per_carrier({})",
+        "result": "passed",
+        "seconds": 0.0009067058563232422,
+        "error": null
+      },
+      {
+        "test": "test_tracking.py:test_second_order_shift_matches_leading_order({})",
+        "result": "passed",
+        "seconds": 0.00810551643371582,
+        "error": null
+      },
+      {
+        "test": "test_tracking.py:test_zero_offset_is_identity({})",
+        "result": "passed",
+        "seconds": 0.007195949554443359,
+        "error": null
+      }
+    ]
+  },
+  "version": "5.2.1",
+  "public_subset_note": "Scientific fields from the 20 October 2026 v5.2.1 author audit. Review-mode and administrative-status fields are omitted; numerical results are unchanged."
+}

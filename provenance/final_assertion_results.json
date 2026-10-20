@@ -1,0 +1,385 @@
+{
+  "runner": "direct execution of parameter-expanded assertion cases; not a pytest invocation",
+  "passed": 63,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "test_channels.py:test_independent_rwa_agrees_with_refined_propagator({})",
+      "result": "passed",
+      "seconds": 0.559241533279419,
+      "error": null
+    },
+    {
+      "test": "test_channels.py:test_jump_statistics({})",
+      "result": "passed",
+      "seconds": 0.03366279602050781,
+      "error": null
+    },
+    {
+      "test": "test_channels.py:test_polarized_electron_is_static({})",
+      "result": "passed",
+      "seconds": 0.00963282585144043,
+      "error": null
+    },
+    {
+      "test": "test_channels.py:test_stratified_jumps_against_exact_free_channel({})",
+      "result": "passed",
+      "seconds": 0.08534049987792969,
+      "error": null
+    },
+    {
+      "test": "test_channels.py:test_zero_drive_dephasing_against_analytic_superoperator({})",
+      "result": "passed",
+      "seconds": 0.009918928146362305,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'nuclear'})",
+      "result": "passed",
+      "seconds": 0.0008122920989990234,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'electron'})",
+      "result": "passed",
+      "seconds": 0.001333475112915039,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_anisotropic_operator_projection({'mechanism': 'magnetic'})",
+      "result": "passed",
+      "seconds": 0.0006020069122314453,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_bad_requirement_input({'T': 0, 'tau': 0.1})",
+      "result": "passed",
+      "seconds": 1.0967254638671875e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_bad_requirement_input({'T': -1, 'tau': 0.1})",
+      "result": "passed",
+      "seconds": 3.5762786865234375e-06,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_bad_requirement_input({'T': 12, 'tau': 0})",
+      "result": "passed",
+      "seconds": 2.1457672119140625e-06,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_bb1_removes_leading_amplitude_error({})",
+      "result": "passed",
+      "seconds": 0.0005545616149902344,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_corner_set_has_16_distinct_corners({})",
+      "result": "passed",
+      "seconds": 9.703636169433594e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_extended_linear_gradient({'active': (0,)})",
+      "result": "passed",
+      "seconds": 0.006980419158935547,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_extended_linear_gradient({'active': (0, 1)})",
+      "result": "passed",
+      "seconds": 0.009586095809936523,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_fidelity_floors_are_distinct({})",
+      "result": "passed",
+      "seconds": 0.0002079010009765625,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_final_diagonal_fidelity_is_calculated_separately({})",
+      "result": "passed",
+      "seconds": 0.00011515617370605469,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_finite_control_bounds({})",
+      "result": "passed",
+      "seconds": 0.0022635459899902344,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_full_short_propagation_is_unitary_and_leakage_not_normalized({})",
+      "result": "passed",
+      "seconds": 0.03752756118774414,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_phase_tracking_population_cancellation({})",
+      "result": "passed",
+      "seconds": 0.0011353492736816406,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.0})",
+      "result": "passed",
+      "seconds": 7.462501525878906e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.0001})",
+      "result": "passed",
+      "seconds": 4.3392181396484375e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.17})",
+      "result": "passed",
+      "seconds": 3.9577484130859375e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 0.5})",
+      "result": "passed",
+      "seconds": 3.933906555175781e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_preparation_separate_from_stationarity({'pe': 1.0})",
+      "result": "passed",
+      "seconds": 3.910064697265625e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'nuclear'})",
+      "result": "passed",
+      "seconds": 0.0021915435791015625,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'electron'})",
+      "result": "passed",
+      "seconds": 0.002573728561401367,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_second_order_blocks_are_hermitian({'mechanism': 'magnetic'})",
+      "result": "passed",
+      "seconds": 0.0022878646850585938,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_second_order_control_gradient({})",
+      "result": "passed",
+      "seconds": 0.016630887985229492,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_seven_carriers_propagate_both_branches({})",
+      "result": "passed",
+      "seconds": 0.0019648075103759766,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 6})",
+      "result": "passed",
+      "seconds": 1.71661376953125e-05,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 8})",
+      "result": "passed",
+      "seconds": 9.298324584960938e-06,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_sufficient_bound_saturates_allocated_budget({'d': 10})",
+      "result": "passed",
+      "seconds": 6.9141387939453125e-06,
+      "error": null
+    },
+    {
+      "test": "test_extended.py:test_thermal_requirement_and_time_units({})",
+      "result": "passed",
+      "seconds": 7.462501525878906e-05,
+      "error": null
+    },
+    {
+      "test": "test_full_sequence_return.py:test_full_interaction_propagator_matches_reported_branch_fidelities({})",
+      "result": "passed",
+      "seconds": 0.03684234619140625,
+      "error": null
+    },
+    {
+      "test": "test_full_sequence_return.py:test_full_propagator_return_options_are_exclusive({})",
+      "result": "passed",
+      "seconds": 0.002433300018310547,
+      "error": null
+    },
+    {
+      "test": "test_io.py:test_load_pulse_ignores_study_metadata({})",
+      "result": "passed",
+      "seconds": 0.06032299995422363,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_axial_spectrum({'B': 1.03})",
+      "result": "passed",
+      "seconds": 0.0007827281951904297,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_axial_spectrum({'B': 1.35})",
+      "result": "passed",
+      "seconds": 0.00034499168395996094,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_axial_spectrum({'B': 1.6})",
+      "result": "passed",
+      "seconds": 0.0003705024719238281,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_bounds_and_endpoints({})",
+      "result": "passed",
+      "seconds": 0.01468348503112793,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_common_frame_counterexample({})",
+      "result": "passed",
+      "seconds": 0.0007557868957519531,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_finite_comb_does_not_obey_global_half_spacing_ceiling({})",
+      "result": "passed",
+      "seconds": 0.0005135536193847656,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_frechet_gradient({})",
+      "result": "passed",
+      "seconds": 0.13926434516906738,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_hermitian_and_purity({})",
+      "result": "passed",
+      "seconds": 0.0008034706115722656,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_hermitian_control_unitarity({})",
+      "result": "passed",
+      "seconds": 0.005922079086303711,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_idle_zero_hyperfine({'p': 0})",
+      "result": "passed",
+      "seconds": 0.008278369903564453,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_idle_zero_hyperfine({'p': 0.1})",
+      "result": "passed",
+      "seconds": 0.0017151832580566406,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_idle_zero_hyperfine({'p': 0.5})",
+      "result": "passed",
+      "seconds": 0.002201557159423828,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_idle_zero_hyperfine({'p': 1.0})",
+      "result": "passed",
+      "seconds": 0.009033203125,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_noise_slopes({})",
+      "result": "passed",
+      "seconds": 0.00017261505126953125,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_nominal_16_level_reference({})",
+      "result": "passed",
+      "seconds": 0.0007176399230957031,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_spin_algebra({'I': 0.5})",
+      "result": "passed",
+      "seconds": 6.604194641113281e-05,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_spin_algebra({'I': 2.5})",
+      "result": "passed",
+      "seconds": 5.6743621826171875e-05,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_spin_algebra({'I': 3.5})",
+      "result": "passed",
+      "seconds": 0.0001323223114013672,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_spin_algebra({'I': 4.5})",
+      "result": "passed",
+      "seconds": 6.818771362304688e-05,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_wrong_rotation_fidelity({'I': 2.5})",
+      "result": "passed",
+      "seconds": 0.00010633468627929688,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_wrong_rotation_fidelity({'I': 3.5})",
+      "result": "passed",
+      "seconds": 0.00011873245239257812,
+      "error": null
+    },
+    {
+      "test": "test_model.py:test_wrong_rotation_fidelity({'I': 4.5})",
+      "result": "passed",
+      "seconds": 0.000133514404296875,
+      "error": null
+    },
+    {
+      "test": "test_tracking.py:test_carrier_offsets_reconstruct_level_shifts({})",
+      "result": "passed",
+      "seconds": 0.01585841178894043,
+      "error": null
+    },
+    {
+      "test": "test_tracking.py:test_offset_requires_one_entry_per_carrier({})",
+      "result": "passed",
+      "seconds": 0.0009067058563232422,
+      "error": null
+    },
+    {
+      "test": "test_tracking.py:test_second_order_shift_matches_leading_order({})",
+      "result": "passed",
+      "seconds": 0.00810551643371582,
+      "error": null
+    },
+    {
+      "test": "test_tracking.py:test_zero_offset_is_identity({})",
+      "result": "passed",
+      "seconds": 0.007195949554443359,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "file": "start_time_nominal_N_B1.03_dual.json",
+    "sequence_index": 0,
+    "pulse": "nominal_N_B1.03_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9981953739062175,
+    "new_fields": {
+      "full_fidelities": [
+        0.998195373900809,
+        0.9986884146632584
+      ],
+      "full_worst": 0.998195373900809,
+      "full_leakage": [
+        -2.3850921238022238e-11,
+        -4.911115958350365e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": -5.40845146446145e-12,
+    "elapsed_s": 15.754158735275269
+  },
+  {
+    "file": "start_time_nominal_N_B1.35_dual.json",
+    "sequence_index": 0,
+    "pulse": "nominal_N_B1.35_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.4978668879647221,
+    "new_fields": {
+      "full_fidelities": [
+        0.6796922078681076,
+        0.4978668879517666
+      ],
+      "full_worst": 0.4978668879517666,
+      "full_leakage": [
+        -2.4913848761798363e-11,
+        -5.0390358552476755e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": -1.295552554125834e-11,
+    "elapsed_s": 15.945640563964844
+  },
+  {
+    "file": "start_time_nominal_N_B1.6_dual.json",
+    "sequence_index": 0,
+    "pulse": "nominal_N_B1.6_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9999063785401011,
+    "new_fields": {
+      "full_fidelities": [
+        0.9999205092908467,
+        0.9999063785488862
+      ],
+      "full_worst": 0.9999063785488862,
+      "full_leakage": [
+        -2.628186557274148e-11,
+        -5.0599524570316134e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 8.785083771556401e-12,
+    "elapsed_s": 16.50283646583557
+  },
+  {
+    "file": "start_time_nominal_N_B1.714_dual.json",
+    "sequence_index": 0,
+    "pulse": "nominal_N_B1.714_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9985063707220808,
+    "new_fields": {
+      "full_fidelities": [
+        0.9985063707280895,
+        0.9991147865040152
+      ],
+      "full_worst": 0.9985063707280895,
+      "full_leakage": [
+        -2.4551027877350862e-11,
+        -5.001865588383225e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 6.00863803157381e-12,
+    "elapsed_s": 16.444013595581055
+  },
+  {
+    "file": "start_time_nominal_nuclear_B1.6_single.json",
+    "sequence_index": 0,
+    "pulse": "nominal_nuclear_B1.6_single",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.999990594182106,
+    "new_fields": {
+      "full_fidelities": [
+        0.99999059418532
+      ],
+      "full_worst": 0.99999059418532,
+      "full_leakage": [
+        -2.9260149858600926e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 3.2139846339873657e-12,
+    "elapsed_s": 15.862959861755371
+  },
+  {
+    "file": "start_time_robust_N_B1.6_dual_refined.json",
+    "sequence_index": 0,
+    "pulse": "robust_N_B1.6_dual_refined",
+    "starts_us": [
+      0.0,
+      48.0
+    ],
+    "old_full_worst": 0.9963726407976092,
+    "new_fields": {
+      "full_fidelities": [
+        0.9970156305042445,
+        0.9963726408342592
+      ],
+      "full_worst": 0.9963726408342592,
+      "full_leakage": [
+        -1.1370593355763958e-10,
+        -2.1036594688439436e-10
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 3.665001635511089e-11,
+    "elapsed_s": 62.852288484573364
+  },
+  {
+    "file": "validation_composable_N_B1.03_dual.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.03_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9986400045397118,
+    "new_fields": {
+      "full_fidelities": [
+        0.998932453486548,
+        0.9986400045558211
+      ],
+      "full_worst": 0.9986400045558211,
+      "full_leakage": [
+        -2.4585222746509316e-11,
+        -5.1848969562229286e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 1.610933608731102e-11,
+    "elapsed_s": 17.261211395263672
+  },
+  {
+    "file": "validation_composable_N_B1.03_dual_pass1.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.03_dual_pass1",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9982388895292351,
+    "new_fields": {
+      "full_fidelities": [
+        0.9986921966105322,
+        0.9982388895489538
+      ],
+      "full_worst": 0.9982388895489538,
+      "full_leakage": [
+        -2.3889556999279193e-11,
+        -5.161915339613188e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 1.9718671140367405e-11,
+    "elapsed_s": 14.270116329193115
+  },
+  {
+    "file": "validation_composable_N_B1.35_dual.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.35_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.805896578139042,
+    "new_fields": {
+      "full_fidelities": [
+        0.8058965781783455,
+        0.8164624588181236
+      ],
+      "full_worst": 0.8058965781783455,
+      "full_leakage": [
+        -2.5621282873089513e-11,
+        -5.2629678393145696e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 3.9303449383965017e-11,
+    "elapsed_s": 15.036914348602295
+  },
+  {
+    "file": "validation_composable_N_B1.6_dual.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.6_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9988917703432898,
+    "new_fields": {
+      "full_fidelities": [
+        0.9989310508239941,
+        0.9988917703430076
+      ],
+      "full_worst": 0.9988917703430076,
+      "full_leakage": [
+        -2.637179363773612e-11,
+        -5.031597360982687e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": -2.822186928597148e-13,
+    "elapsed_s": 14.899671077728271
+  },
+  {
+    "file": "validation_composable_N_B1.6_single.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.6_single",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9995981388917305,
+    "new_fields": {
+      "full_fidelities": [
+        0.9995981388935304
+      ],
+      "full_worst": 0.9995981388935304,
+      "full_leakage": [
+        -2.788302921885588e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 1.7998935675223038e-12,
+    "elapsed_s": 15.473852634429932
+  },
+  {
+    "file": "validation_composable_N_B1.714_dual.json",
+    "sequence_index": 0,
+    "pulse": "composable_N_B1.714_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9980666552192782,
+    "new_fields": {
+      "full_fidelities": [
+        0.9983564068708716,
+        0.9980666552337163
+      ],
+      "full_worst": 0.9980666552337163,
+      "full_leakage": [
+        -2.41096032027599e-11,
+        -5.1658233246598684e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 1.4438117368342773e-11,
+    "elapsed_s": 16.437240839004517
+  },
+  {
+    "file": "validation_refined_N_B1.6_dual.json",
+    "sequence_index": 0,
+    "pulse": "refined_N_B1.6_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9987823084380246,
+    "new_fields": {
+      "full_fidelities": [
+        0.9989629028799875,
+        0.9987823084377335
+      ],
+      "full_worst": 0.9987823084377335,
+      "full_leakage": [
+        -2.60593768786066e-11,
+        -5.0104365101333315e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": -2.9110047705671604e-13,
+    "elapsed_s": 16.46647548675537
+  },
+  {
+    "file": "validation_window_N_B1.03_dual.json",
+    "sequence_index": 0,
+    "pulse": "window_N_B1.03_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.999635168935288,
+    "new_fields": {
+      "full_fidelities": [
+        0.9996659408957002,
+        0.9996351689408495
+      ],
+      "full_worst": 0.9996351689408495,
+      "full_leakage": [
+        -2.425748490963997e-11,
+        -5.140332604014475e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 5.561440197254797e-12,
+    "elapsed_s": 15.940106630325317
+  },
+  {
+    "file": "validation_window_N_B1.35_dual.json",
+    "sequence_index": 0,
+    "pulse": "window_N_B1.35_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.8645086915024863,
+    "new_fields": {
+      "full_fidelities": [
+        0.8645086915281184,
+        0.8861364386083371
+      ],
+      "full_worst": 0.8645086915281184,
+      "full_leakage": [
+        -2.4269475318305922e-11,
+        -5.200506691949158e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 2.5632052036428377e-11,
+    "elapsed_s": 15.521117448806763
+  },
+  {
+    "file": "validation_window_N_B1.6_dual.json",
+    "sequence_index": 0,
+    "pulse": "window_N_B1.6_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9999079439763248,
+    "new_fields": {
+      "full_fidelities": [
+        0.9999720958847232,
+        0.9999079439825387
+      ],
+      "full_worst": 0.9999079439825387,
+      "full_leakage": [
+        -2.703259838199301e-11,
+        -4.9934945067775516e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 6.213918268827001e-12,
+    "elapsed_s": 13.8704252243042
+  },
+  {
+    "file": "validation_window_N_B1.6_single.json",
+    "sequence_index": 0,
+    "pulse": "window_N_B1.6_single",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.999991001242141,
+    "new_fields": {
+      "full_fidelities": [
+        0.9999910012452704
+      ],
+      "full_worst": 0.9999910012452704,
+      "full_leakage": [
+        -2.970201862240174e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 3.1293856395109287e-12,
+    "elapsed_s": 13.957948684692383
+  },
+  {
+    "file": "validation_window_N_B1.714_dual.json",
+    "sequence_index": 0,
+    "pulse": "window_N_B1.714_dual",
+    "starts_us": [
+      0.0,
+      12.0
+    ],
+    "old_full_worst": 0.9997286108039884,
+    "new_fields": {
+      "full_fidelities": [
+        0.9997286108085243,
+        0.9997510014552786
+      ],
+      "full_worst": 0.9997286108085243,
+      "full_leakage": [
+        -2.554267908294605e-11,
+        -5.12263564900195e-11
+      ],
+      "full_dt_us": 5e-05,
+      "full_composition": "complete static-energy interaction-picture propagators"
+    },
+    "difference": 4.535816167106077e-12,
+    "elapsed_s": 14.239253044128418
+  }
+]
