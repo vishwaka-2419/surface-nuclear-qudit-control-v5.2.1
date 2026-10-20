@@ -65,10 +65,6 @@ python scripts/verify_pulse.py tracked_electron_B1.6_single --full-step-us 0.000
 
 These commands propagate archived waveforms without re-optimizing them. New reports go to `verification/`, preserving `results/`. For electron-mediated pulses, compare the second-order reduced model and full 16-level model; disagreement with the linearly projected model is part of the physical result. Fidelity differences and step convergence are the appropriate comparisons, not byte-identical output JSON.
 
-## Fresh optimization and numerical studies
-
-See `docs/REPRODUCING.md` for the ordered study recipe, including the 1.03 T continuation and the 24-start-time refined 1.6 T run. Work in a separate copy. Fresh optimization takes hours, and floating-point/library differences can change the trajectory of a finite-budget optimizer. The archived coefficient arrays are the exact controls used for the reported results.
-
 ## Export coefficient waveforms
 
 ```bash
