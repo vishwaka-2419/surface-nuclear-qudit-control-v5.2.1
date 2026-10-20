@@ -15,17 +15,6 @@ This repository contains the code and data needed to reproduce the numerical res
 3. Run `python -m pytest -q` for the assertion tests.
 4. Regenerate the figures from the supplied results, or independently propagate a saved pulse, using the commands below.
 
-A GitHub URL and Zenodo DOI must be assigned through the corresponding services. No identifier is invented in this prepared checkout. The licensing decision is also pending; see `LICENSE_NOTICE.md`. These release details must be finalized before claiming that the materials are publicly available under a reuse licence.
-
-## What the paper shows
-
-
-1. **Optimized multitone gates and composability.** For a direct nuclear drive and a static electron, fourteen-tone shaped radio-frequency pulses implement an eight-level collective π/2 rotation in 12 µs with fidelity > 99.99 % in the full 16-level model at 1.03, 1.35, 1.6 and 1.714 T as isolated gates at their design start time. A seven-tone pulse for a prepared electron is also validated at 1.6 T, reaching 99.9993 %. A pulse replayed at another time with continuously running carriers keeps its resonant couplings but rephases the off-resonant ones: near the comb crossing at 1.35 T the nominal pulse falls to 45 % and two consecutive pulses to 50 %. Pulses trained on start times drawn from 0–100 ms sample a broader range of relative phases and are validated at 48 held-out start times, on a 400-point scan and in two- and three-pulse sequences; the numbers are in `docs/FINAL_RESULTS.md`. These are finite sampled tests, not a guarantee for every carrier phase or sequence. Pulses trained on a 10-µs window pass the sampled tests inside that window but can degrade at later starts (SI Supplementary Note 9).
-2. **Driving through the electron.** For an electron-mediated drive, one plausible hypothesis for the junction, the drive shifts the whole nuclear transition comb by Δf ≈ A_z⟨Ω_e²⟩/4ν_e² (9–23 kHz for the pulses considered), comparable to the nuclear Rabi frequency. A pulse designed without the shift reaches F ≈ 0.1–0.2 in the full model although the electron returns to its initial state. Calibrating the shift into the carrier frequencies (frame defined by the carriers) and designing with the second-order model restores F = 99.87–99.997 % (seven-tone pulses ≥ 99.96 %). The leading formula assumes an effective spin-1/2 electron, ν_e ≫ A_z and Ω_e ≪ ν_e.
-3. **Calibration tolerance.** With a residual-error domain of ±0.1 mT, ±2 kHz (A_z, κ) and ±3 % gain, a 48-µs corner-trained direct-drive pulse keeps 99.3 % at its worst corner and 99.45 % at the worst of 128 held-out points. The frozen shift-tracked electron-mediated pulses are more sensitive (98.4 % / 95.8 % at ±3 % gain for 7 / 14 tones; 92.6 % at the worst corner for 7 tones), because the comb shift scales with drive power.
-4. **Electron switching.** A classical telegraph model and a sufficient (not necessary) bound convert gate duration, electron correlation time and error budget into a maximum stationary excited fraction: p_e ≤ 8.5×10⁻⁵ for T = 12 µs, τ_c = 0.1 µs and a 0.1 % coherent-error allowance (≈ 67 mK thermal equivalent at 1.6 T); with the 48-µs robust pulse's actual 0.7 % coherent error, p_e ≤ 7.0×10⁻⁶. Motional narrowing would need femtosecond correlation times. Nuclear dephasing requirements (T_φ ≳ 11 ms magnetic, T_Q ≳ 1.2 ms quadrupolar) are given separately. Every result in the paper is labeled with its validation level (L1 design mesh, L2 real waveform, L3 second-order model, L4 full 16-level model).
-
-
 ## Installation
 
 Use Python 3.11 or later. The original numerical environments and the separate Python 3.12 verification environment are recorded in `provenance/historical/environment_pre_v521.json` and `provenance/audit_environment_v521.json`.
@@ -107,11 +96,4 @@ Carrier offsets define the conditional frame of the shift-tracked targets. A pul
 | `supplement/generated/` | Generated numerical tables used in the supplement |
 | `tests/` | Algebra, signs, frames, gradients, fidelity, channel and propagation checks |
 | `configs/` | Experimental calibration interface |
-| `docs/` | Scientific limits, numerical findings, AI disclosure, calibration and reproduction instructions |
 | `provenance/` | Verification records, input hashes, figure manifest and clearly labelled historical records |
-
-## Citation and reuse
-
-`CITATION.cff` supplies the author, title and numerical version. Cite the specific archived version once a real DOI has been registered. Do not use an unassigned DOI or describe an unpublished draft as a public archive. No public reuse licence has yet been assigned; `LICENSE_NOTICE.md` records the current rights status.
-
-AI assistance is disclosed in the manuscript Methods and `docs/AI_ASSISTANCE.md`. The author is responsible for the scientific claims, code and interpretation.
